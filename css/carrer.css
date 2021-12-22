@@ -1,0 +1,289 @@
+/* main_top */
+main .main_top{
+    background: url(../images/about_Recruitment/Recruitment_bg.png) center center/cover;
+    padding: 120px 0;
+}
+
+.box_wrapper{
+    margin-top: 162px;
+    display: flex;
+    gap: 24px;
+}
+
+.box_wrapper > a{
+    width: 100%;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 70px 40px 40px;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+}
+
+
+.box_wrapper > a::before{
+    content: '+';
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    border: 1px solid var(--text_color);
+    font-size: 30px;
+    font-weight: bold;
+    right: 20px;
+    top: 20px;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.box_wrapper > a::after{
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: 0.3s;
+    border: 3px solid red;
+
+}
+
+.box_wrapper > a:hover .top_box > *,
+.box_wrapper > a:hover .top_box + span{
+    color: #fff;
+}
+
+.box_wrapper > a:hover::before{
+    border-color: #fff;
+    color: #fff;
+}
+.box_wrapper > a:hover::after{
+    z-index: 0;
+    opacity: 1;
+}
+
+
+.top_content1::after{
+    background:  url(../images/about_Recruitment/new-bg.png) no-repeat 55% center/cover;
+}
+.top_content2::after{
+    background: url(../images/about_Recruitment/old-bg.png) no-repeat  40% center/cover;
+}
+.top_content3::after{
+    background: url(../images/about_Recruitment/always-bg.png) no-repeat  50% center/cover;
+}
+.top_content4::after{
+    background: url(../images/about_Recruitment/intern-bg.png) no-repeat 40% center/cover;
+}
+
+.bottom_box{
+    font-size: 40px;
+}
+.bottom_box::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background: var(--sprite_img);
+}
+
+.box_wrapper > a:hover .bottom_box::before{
+    width: 63px;
+    height: 49px;
+    background-position: -282px -264px;
+    
+}
+.top_content1 .bottom_box::before{
+    width: 70px;
+    height: 100px;
+    background-position-x: -256px;
+}
+.top_content2 .bottom_box::before{
+    width: 100px;
+    height: 100px;
+}
+.top_content3 .bottom_box::before{
+    width: 97px;
+    height: 78px;
+    background-position: -130px -22px;
+}
+.top_content4 .bottom_box::before{
+    width: 87px;
+    height: 100px;
+    background-position: -356px -8px;
+}
+
+.title_wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 1;
+    transition: 0.3s;
+
+}
+.title_wrapper span{
+    font-size: 15px;
+    line-height: 24px;
+    
+}
+
+.box_wrapper .top_box{
+    flex: 1;
+    text-align: left;
+    position: relative;
+}
+
+.box_wrapper .bottom_box{
+    flex: 1;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    margin: 0;
+    font-weight: normal;
+    z-index: 1;
+}
+
+
+/* main_bottom */
+.main_bottom{
+    padding: 162px 0;
+}
+
+.main_bottom > h3{
+    position: relative;
+    width: 760px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.main_bottom > h3::before,
+.main_bottom > h3::after{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    background: var(--text_color);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main_bottom > h3::before{
+    right: calc(100% + 40px);
+}
+
+.main_bottom > h3::after{
+    left: calc(100% + 40px);
+}
+
+.bottom_content_wrapper{
+    display: flex;
+}
+
+.bottom_content_wrapper > div{
+    flex: 1;
+}
+
+.bottom_content_wrapper > div a{
+    display: block;
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    background: #f4f4f4;
+    border-radius: 50%;
+    text-indent: -999em;
+    position: relative;
+    transition: 0.3s;
+}
+
+.bottom_content_wrapper > div a:hover{
+    transform: translateY(-10px);
+}
+
+.bottom_content_wrapper > div a::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: var(--sprite_img);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bottom_content_wrapper > div h4{
+    margin: 10px 0 5px;
+    font-size: 25px;
+}
+.bottom_content_wrapper > div em{
+    color: var(--highlight_color_red);
+    font-size: 18px;
+}
+
+.bottom_content_wrapper > div p{
+    font-size: 15px;
+}
+
+.bottom_content_wrapper > .bottom_contetn1 a::before{
+    background-position-x: -562px;
+    width: 47px;
+    height: 66px;
+}
+.bottom_content_wrapper > .bottom_contetn2 a::before{
+    background-position-x: -613px;
+    width: 61px;
+    height: 63px;
+}
+.bottom_content_wrapper > .bottom_contetn3 a::before{
+    background-position-x: -678px;
+    width: 65px;
+    height: 65px;
+}
+
+@media (max-width:1250px){
+    .box_wrapper{flex-wrap: wrap; justify-content: center;}
+    .box_wrapper > a{width: 306px;}
+    .main_bottom > h3{width: 100%;}
+    .main_bottom > h3::before, .main_bottom > h3::after{display: none;}
+    .bottom_content_wrapper{flex-wrap: wrap;}
+    .bottom_content_wrapper > div{margin: 20px;}
+    
+}
+@media (max-width:900px){
+    .main_bottom > h3{font-size: 25px;}
+    .bottom_content_wrapper > div h4{font-size: 20px;}
+    .main_bottom > h3::before{display: block; top: -20px; left: 50%; transform: translateX(-50%); width: 50px; height: 10px; background: var(--sub_color_navy);}
+}
+
+@media (max-width:700px){
+    .box_wrapper > a{width: 200px;}
+    .box_wrapper > a::after,
+    .bottom_box::before{background: none; border: none;}
+    .main_bottom{padding: 120px 20px;}
+    .main_bottom > h3{line-height: 35px;}
+    /* 밑에 부분 수정 필요 */
+    .box_wrapper > a::after{background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); width: 100%; left: -500%;}
+    .box_wrapper > a:hover::after{left: 0;}
+    
+}
+
+@media (max-width:480px){
+    .box_wrapper{gap: 10px; margin-top: 40px;}
+    .box_wrapper > a{width: 180px;}
+    .box_wrapper > a::before{width: 40px; height: 40px; line-height: 40px;}
+    .title_wrapper span{font-size: 13px;}
+    .bottom_box{font-size: 30px;}
+    .bottom_content_wrapper > div a{width: 150px; height: 150px;}
+}
+
+@media (max-width:420px){
+    .box_wrapper > a{width: 150px; padding: 70px 35px 40px;}
+    .bottom_box{font-size: 25px;}
+}

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKT - stock - seokho</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/stock.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js" integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container ">
+            <h1><a href="index.html" class="logo">sk telecom</a></h1>
+            <nav class="main_nav ">
+                <ul>
+                    <li>
+                        <a href="about_ceo.html" class="nav_title">SK텔레콤<span class="nav_highlight"></span></a>
+                        <ul>
+                            <li><a href="about_ceo.html">CEO인사말</a></li>
+                            <li><a href="" class="ready">회사소개</a></li>
+                            <li><a href="" class="ready">사업소개</a></li>
+                            <li><a href="" class="ready">연혁</a></li>
+                            <li><a href="" class="ready">브랜드</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="" class="nav_title">사회적 가치</a>
+                        <ul>
+                            <li><a href="" class="ready">사회적 가치</a></li>
+                            <li><a href="" class="ready">지속경영</a></li>
+                            <li><a href="" class="ready">관계자 참여</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="" class="nav_title">투자정보</a>
+                        <ul>
+                            <li><a href="" class="ready">경영정보</a></li>
+                            <li><a href="" class="ready">재무정보</a></li>
+                            <li><a href="stock.html">주식정보</a></li>
+                            <li><a href="" class="ready">IR자료실</a></li>
+                            <li><a href="" class="ready">Annual Report</a></li>
+                            <li><a href="" class="ready">전자공고</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="" class="nav_title">미디어센터</a>
+                        <ul>
+                            <li><a href="" class="ready">뉴스</a></li>
+                            <li><a href="" class="ready">광고영상</a></li>
+                            <li><a href="" class="ready">T.um</a></li>
+                            <li><a href="" class="ready">스포츠</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="career.html" class="nav_title">인재채용</a>
+                        <ul>
+                            <li><a href="career.html">채용정보</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <span>nav back</span>
+            <hr>
+            <div class="header_toolbox">
+                <div class="tool_mobile">
+                    <a href="sign_in.html">모바일T</a>
+                    <a href="sign_in.html" class="login_btn">로그인</a>
+                </div>
+                <div class="tool_right">
+                    <p class="go_search">
+                        <i class="fas fa-search"></i>
+                        <span class="frist"></span>
+                        <span class="second"></span>
+                    </p>
+                    <div class="language">
+                        <p class="korea">KO <i class="fas fa-caret-down"></i></p>
+                        <p class="english">EN</p>
+                    </div>
+                    <button class="side_open_btn">
+                        <i class="fas fa-bars"></i>
+                        <span class="frist"></span>
+                        <span class="second"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="header_side_menu">
+                    <nav>
+                        <ul class="side_main_ul">
+                            <li class="side_li">
+                                <div class="title_wrap ">
+                                    <a href="" class="nav_title first sub_content_tt">
+                                        <span>SK텔레콤</span>
+                                        <span>open &amp; close</span>
+                                    </a>
+                                </div>
+                                <ul class="side_ul">
+                                    <li><a href="about_ceo.html">CEO인사말</a></li>
+                                    <li><a href="" class="ready">회사소개</a></li>
+                                    <li>
+                                        <a href="" class="ready">사업소개</a>
+                                        <ul class="sub_ul">
+                                            <li><a href="" class="ready">통신</a></li>
+                                            <li><a href="" class="ready">미디어</a></li>
+                                            <li><a href="" class="ready">보안</a></li>
+                                            <li><a href="" class="ready">커머스</a></li>
+                                            <li><a href="" class="ready">모빌리티</a></li>
+                                            <li><a href="" class="ready">AI</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="" class="ready">연혁</a></li>
+                                    <li><a href="" class="ready">브랜드</a></li>
+                                </ul>
+                            </li>
+                            <li class="side_li">
+                                <div class="title_wrap">
+                                    <a href="" class="nav_title sub_content_tt ">
+                                        <span>사회적 가치</span>
+                                        <span>open &amp; close</span>
+                                    </a>
+                                </div>
+                                <ul class="side_ul">
+                                    <li><a href="" class="ready">사회적 가치</a></li>
+                                    <li>
+                                        <a href="" class="ready">지속경영</a>
+                                        <ul class="sub_ul">
+                                            <li><a href="" class="ready">책임경영</a></li>
+                                            <li><a href="" class="ready">지속경영 자료실</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="" class="ready">관계자 참여</a>
+                                        <ul class="sub_ul">
+                                            <li><a href="" class="ready">정책</a></li>
+                                            <li><a href="" class="ready">참여 Framwork</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="side_li">
+                                <div class="title_wrap">
+                                    <a href="" class="nav_title sub_content_tt">
+                                        <span>투자정보</span>
+                                        <span>open &amp; close</span>
+                                    </a>
+                                </div>
+                                <ul class="side_ul">
+                                    <li>
+                                        <a href="" class="ready">경영정보</a>
+                                        <ul class="sub_ul">
+                                            <li><a href="" class="ready">지배구조</a></li>
+                                            <li><a href="" class="ready">주주총회</a></li>
+                                            <li><a href="" class="ready">정관</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="" class="ready">재무정보</a></li>
+                                    <li><a href="stock.html">주식정보</a></li>
+                                    <li><a href="" class="ready">IR자료실</a></li>
+                                    <li>
+                                        <a href="" class="ready">Annual Report</a>
+                                        <ul class="sub_ul">
+                                            <li><a href="" class="ready">분쟁광물</a></li>
+                                            <li><a href="" class="ready">공시정보</a></li>
+                                            <li><a href="" class="ready">IR 자료요청</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="" class="ready">전자공고</a></li>
+                                </ul>
+                            </li>
+                            <li class="side_li">
+                                <div class="title_wrap">
+                                    <a href="" class="nav_title sub_content_tt">
+                                        <span>미디어센터</span>
+                                        <span>open &amp; close</span>
+                                    </a>
+                                </div>
+                                <ul class="side_ul">
+                                    <li><a href="" class="ready">뉴스</a></li>
+                                    <li><a href="" class="ready">광고영상</a></li>
+                                    <li><a href="" class="ready">T.um</a></li>
+                                    <li><a href="" class="ready">스포츠</a></li>
+                                </ul>
+                            </li>
+                            <li class="side_li">
+                                <div class="title_wrap">
+                                    <a href="" class="nav_title sub_content_tt">
+                                        <span>인재채용</span>
+                                        <span>open &amp; close</span>
+                                    </a>
+                                </div>
+                                <ul class="side_ul">
+                                    <li><a href="career.html">채용정보</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <aside class="faq">
+                        <h2 class="sub_content_tt">자주 묻는 질문</h2>
+                        <ul>
+                            <li><a href="">1:1 문의하기</a></li>
+                            <li><a href="">실시간 요금조회</a></li>
+                            <li><a href="">휴대폰 분실신고</a></li>
+                            <li><a href="">휴대폰 파손처리</a></li>
+                            <li><a href="">인터넷 가입신청</a></li>
+                        </ul>
+                        <h2 class="sub_content_tt site_call">문의전화</h2>
+                        <div class="site_call">
+                            <p>이동전화 고객센터(평일 오전 9시 ~ 오후 6시)</p>
+                            <div class="call_wrap">
+                                <p>무료<br><em>114</em></p>
+                                <p>유료<br><em>1599-0011</em></p>
+                            </div>
+                        </div>
+                        <div class="site_call">
+                            <p>유선서비스 고객센터(평일 오전 9시 ~ 오후 6시 / 토요일 오전 9시 ~ 12시)</p>
+                            <div class="call_wrap">
+                                <p>무료<br><em>080-816-2000</em></p>
+                                <p>유료<br><em>1600-2000</em></p>
+                            </div>
+                        </div>
+                    </aside>
+            </div>
+            <div class="header_search">
+                <span>search back</span>
+                <form action="search_result.html" method="GET">
+                    <label for="search" class="hide">검색어 입력</label>
+                    <input type="search" id="search" placeholder="검색어를 입력하세요.">
+                    <button><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <span class="side_back">side back</span>
+    <main class="container">
+        <section>
+            <h2 class="hide">주식정보</h2>
+            <div class="content_intro">
+                <h2 class="main_content_tt conBig wow animate__fadeInDown">주식정보</h2>
+                <p class="content_em  wow animate__fadeInUp">Stock</p>
+            </div>
+            <div class="charts_box1 wow animate__fadeInLeft">
+                <figure>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>구분</th>
+                                <th>2020년</th>
+                                <th>2021년</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>기타</th>
+                                <td>42.91%</td>
+                                <td>42.18%</td>
+                            </tr>
+                            <tr>
+                                <th>SK㈜</th>
+                                <td>26.78%</td>
+                                <td>26.78%</td>
+                            </tr>
+                            <tr>
+                                <th>SK텔레콤</th>
+                                <td>9.42%</td>
+                                <td>11.66%</td>
+                            </tr>
+                            <tr>
+                                <th>국민연금</th>
+                                <td>11.12%</td>
+                                <td>10.97%</td>
+                            </tr>
+                            <tr>
+                                <th>Citibank ADR</th>
+                                <td>9.76%</td>
+                                <td>8.41%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </figure>
+                <div class="chart_top_box">
+                    <h3 class="sub_content_tt">주주현황</h3>
+                    <canvas id="chart_view_top">주주현황을 막대 그래프로 나타낸 차트입니다.</canvas>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="charts_box2 wow animate__fadeInRight">
+                <div class="chart_bottom_box">
+                    <h3 class="sub_content_tt">발행주식</h3>
+                    <canvas id="chart_view_bottom">발행주식을 원 그래프로 나타낸 차트입니다.</canvas>
+                </div>
+                <figure>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>구분</th>
+                                <th>주식수</th>
+                                <th>주식 비율</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>자사보유주</th>
+                                <td>9,418,558*</td>
+                                <td>11.66%</td>
+                            </tr>
+                            <tr>
+                                <th>의결권 보유</th>
+                                <td>71,327,153</td>
+                                <td>88.34%</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th>발행주식총수</th>
+                                <td>80,745,711</td>
+                                <td>100%</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <figcaption>
+                        <p>2021. 05. 06. 자기주식 8,685,568주 소각 완료</p>
+                        <p>* 2020. 12. 31. 기준입니다.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="dividend wow animate__fadeInUp">
+            <h2 class="sub_content_tt">배당현황</h2>
+            <figure>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>구분</th>
+                            <th>2016년</th>
+                            <th>2017년</th>
+                            <th>2018년</th>
+                            <th>2019년</th>
+                            <th>2020년</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>배당금총액<span class="show_caption">(백만원)</span></th>
+                            <td>706,091</td>
+                            <td>706,091</td>
+                            <td>717,437</td>
+                            <td>730,098</td>
+                            <td>717,438</td>
+                        </tr>
+                        <tr>
+                            <th>주당순이익<span class="show_caption">(원)</span></th>
+                            <td>17,001</td>
+                            <td>18,613</td>
+                            <td>13,000<span class="hide_caption">원</span></td>
+                            <td>13,393<span class="hide_caption">원</span></td>
+                            <td>10,221<span class="hide_caption">원</span></td>
+                        </tr>
+                        <tr>
+                            <th>당기순이익<span class="show_caption">(백만원)</span></th>
+                            <td>1,217,274</td>
+                            <td>1,331,114</td>
+                            <td>933,902</td>
+                            <td>979,891</td>
+                            <td>758,792</td>
+                        </tr>
+                        <tr>
+                            <th>배당현황</th>
+                            <td>58.0%</td>
+                            <td>53.0%</td>
+                            <td>76.8%</td>
+                            <td>74.5%</td>
+                            <td>94.6%</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>배당수익율</th>
+                            <td>4.3%</td>
+                            <td>3.6%</td>
+                            <td>3.7%</td>
+                            <td>4.1%</td>
+                            <td>8.41%</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <figcaption>
+                    <p class="mini_caption">배당금 총액, 당기순이익 단위 = 백만원</p>
+                    <p>※ 배당 지급은 모두 현금이며 배당금액은 주당 1만원입니다. </p>
+                    <p>주당순이익 계산근거 : 당기순이익 / 가중평균유통보통주식수</p>
+                </figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="notice">
+                <div class="notice_wrapper">
+                    <p class="content_em">공지</p>
+                    <a href="">개인정보처리방침 변경안내</a>
+                    <a href="">more view +</a>
+                </div>
+                    <a href="" class="family_btn content_em">family site</a>
+            </div>
+            <div class="footer_bottom">
+                <a href="" class="footer_logo">footer_logo</a>
+                <div class="copylight">
+                    <div class="copylight_top">
+                        <a href="">faq</a>
+                        <a href="">개인정보 처리방침</a>
+                        <a href="">이용약관</a>
+                        <a href="">프라이버시 센터</a>
+                        <a href="">도매제공 이용문의</a>
+                    </div>
+                    <div class="copylight_bottom">
+                        <address>우편번호: 0539 서울특별시 중구 을지로65(을지로2가) sk t-타워 sk텔레콤(주)<br>대표이사 사장 박정호</address>
+                        <p>copyright sk telecom co. ltd. all rights reserved</p>
+                    </div>
+                </div>
+                <div class="grade">
+                    <ul>
+                        <li><img src="images/footer/footer_origin_1.png" alt=""></li>
+                        <li><img src="images/footer/footer_origin_2.png" alt=""></li>
+                        <li><img src="images/footer/footer_origin_3.png" alt=""></li>
+                        <li><img src="images/footer/footer_origin_4.png" alt=""></li>
+                        <li><img src="images/footer/footer_origin_5.png" alt=""></li>
+                        <li><img src="images/footer/footer_origin_6.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button id="go_top_btn">go to the top!</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/common.js"></script>
+    <script src="js/stock.js"></script>
+
+</body>
+</html>

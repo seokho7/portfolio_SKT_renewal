@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+/* 
+font-family: 'Noto Sans KR', sans-serif;
+*/
+
+/* TYPOGRAPHY, BUTTON COLOR */
+body{
+    color: rgb(44,44,44);
+    font: 15px/27px 'Noto Sans KR';
+    margin: 0 auto;
+}
+
+p,button{
+    margin: 30px;
+}
+.main_content_tt{
+    font: bold 50px/27px 'Noto Sans KR' ;
+}
+
+.sub_content_tt{
+    font: bold 30px/27px 'Noto Sans KR' ;
+}
+
+.sub_content_em{
+    font: bold 20px/27px 'Noto Sans KR' ;
+}
+
+
+.btn_first{
+    width: 300px;
+    height: 60px;
+    border: 1px solid #000;
+    font: bold 15px/27px 'Noto Sans KR' ;
+    padding: auto 50px;   
+}
+
+
+.btn_first:hover,
+.btn_first.hover{
+    background: rgb(255,122,0);
+    color: #fff;
+    border: none;
+}
+
+.btn_second{
+    width: 70px;
+    height: 70px;
+    text-indent: -9999em;
+    display: inline-block;
+    background: url(../images/sprite_img_pc.png) no-repeat -430px -110px;
+}
+
+.btn_second:hover,
+.btn_second.hover{
+    background-position-x: -630px;
+}
+
+.btn_third{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+}
+
+.btn_third:hover,
+.btn_third.hover{
+    background: rgb(234,0,44);
+}
+
+.color_wrap{
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+}
+.color{
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+.higilight{
+    background: rgb(234,0,44);
+}
+
+.sub{
+    background: rgb(255,122,0);
+}
+
+.sub2{
+    background: rgb(29,17,96);
+}
+
+.text{
+    background: rgb(44,44,44);
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKT - sign_in - seokho</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sign_in.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="container">
+        <h1><a href="index.html" class="logo">logo</a></h1>
+    </header>
+    <main>
+        <section class="login_left">
+            <h2 class="main_content_tt">Tworld 로그인</h2>
+            <form action="#" method="POST" novalidate>
+                <p class="required">
+                    <span class="focus_text">아이디 또는 이메일</span>
+                    <label for="user_id" class="hide">아이디 또는 이메일</label>
+                    <input type="text" id="user_id" name="user_id" placeholder="아이디 또는 이메일" data-text="아이디 또는 이메일" required value="">
+                    <span class="check_val"><i class="far fa-check-circle"></i></span>
+                </p>
+                <p class="required">
+                    <span class="focus_text">비밀번호</span>
+                    <label for="user_password" class="hide">비밀번호</label>
+                    <input type="password" id="user_password" name="user_password" placeholder="비밀번호" data-text="비밀번호" required>
+                    <span class="check_val"><i class="far fa-check-circle"></i></span>
+                </p>
+                <div class="remember_id">
+                    <span id="error_text">아이디와 비밀번호를 확인해주세요.</span>
+                    <input type="checkbox" id="checkbox" name="user_checkbox" class="hide"> 
+                    <label for="checkbox"><em>box</em> ID 기억하기
+                        <svg>
+                            <path id="svg_path" d="M3,1 L17,1 L17,1 C18.1045695,1 19,1.8954305 19,3 L19,17 L19,17 C19,18.1045695 18.1045695,19 17,19 L3,19 L3,19 C1.8954305,19 1,18.1045695 1,17 L1,3 L1,3 C1,1.8954305 1.8954305,1 3,1 Z"></path>
+                            <polyline id="svg_plyline" points="4 11 8 15 16 6"></polyline>
+                          </svg>
+                        </label>
+                    
+                </div>
+                <button type="submit" class="logIn_btn">로그인</button>
+                <div class="help_box">
+                    <p><a href="">ID</a> 또는 <a href="">비밀번호</a>를 잊으셨나요?</p>
+                    <a href="sign_up.html">회원가입</a>
+                </div>
+            </form>
+        </section>
+
+        <section class="login_right">
+            <h2 class="main_content_tt">퀀텀 QR코드 로그인</h2>
+            <img src="images/about_sign-in/qr.png" alt="">
+            <div class="less_animation_bar">
+                <p id="random_number">0-0-0</p>
+                <div id="hide_bar">hide bar</div>
+            </div>
+            <p id="timer">00:00</p>
+            <p>T아이디 앱을 실행후 <a href="">[퀀텀로그인]</a> 탭을 눌러 QR코드를 스캔하세요.</p>
+        </section>
+
+        <aside>
+            <button>T 로그인</button>
+            <button>퀀텀 로그인</button>
+        </aside>
+    </main>
+    <footer>
+        &copy; SK TELECOM All Rights Reserved.
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/sign_in.js"></script>
+</body>
+</html>

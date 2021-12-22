@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://seokho1.dothome.co.kr/skt/</loc>
+  <lastmod>2021-11-24T16:07:49+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://seokho1.dothome.co.kr/skt/index.html</loc>
+  <lastmod>2021-11-24T16:07:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://seokho1.dothome.co.kr/skt/about_ceo.html</loc>
+  <lastmod>2021-10-28T14:26:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://seokho1.dothome.co.kr/skt/stock.html</loc>
+  <lastmod>2021-10-28T14:26:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://seokho1.dothome.co.kr/skt/career.html</loc>
+  <lastmod>2021-10-28T14:26:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://seokho1.dothome.co.kr/skt/sign_in.html</loc>
+  <lastmod>2021-11-24T16:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://seokho1.dothome.co.kr/skt/sign_up.html</loc>
+  <lastmod>2021-11-24T16:08:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://seokho1.dothome.co.kr/skt/search_result.html</loc>
+  <lastmod>2021-10-28T14:26:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

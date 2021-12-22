@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKT - sign_up - seokho</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sign_up.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <h1><a href="index.html" class="logo">logo</a></h1>
+    </header>
+    <main>
+        <form action="#" method="post" novalidate>
+            <p class="required">
+                <label for="sign_id">아이디</label>
+                <input type="text" id="sign_id" name="sign_id" required>
+                <span class="error_text">필수 정보입니다</span>
+            </p>
+            <p class="required password_box">
+                <label for="sign_password">비밀번호</label>
+                <input type="password" id="sign_password" name="sign_password" required>
+                <span class="error_text">필수 정보입니다</span>
+                <span class="lock_icon"><i class="fas fa-lock"></i></span>
+            </p>
+            <p class="required password_box">
+                <label for="sign_check_password">비밀번호 확인</label>
+                <input type="password" id="sign_check_password" name="sign_check_password" required>
+                <span class="error_text">필수 정보입니다</span>
+                <span class="lock_icon"><i class="fas fa-lock"></i></span>
+            </p>
+            <p class="required">
+                <label for="sign_name">이름</label>
+                <input type="text" id="sign_name" name="sign_name" required>
+                <span class="error_text">필수 정보입니다</span>
+            </p>
+            <p class="select_box">
+                <label for="sign_male">성별</label>
+                <select name="sign_male" id="sign_male" required>
+                    <option value="">선택해주세요</option>
+                    <option value="male">남자</option>
+                    <option value="female">여자</option>
+                </select>
+                <span class="select_arrow"><i class="fas fa-chevron-down"></i></span>
+            </p>
+            <p class="email_box">
+                <label for="sign_email">본인 확인 이메일(선택)</label>
+                <input type="email" id="sign_email" name="sign_email" placeholder="example@example.com">
+            </p>
+            <button type="submit" class="sign_up_btn">가입하기</button>
+        </form>
+    </main>
+    <footer>
+        &copy; SK TELECOM All Rights Reserved.
+    </footer>
+    <script src="js/sign_up.js"></script>
+</body>
+</html>
